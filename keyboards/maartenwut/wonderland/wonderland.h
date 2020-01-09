@@ -18,5 +18,10 @@
     {XXX, k41, XXX, k43, XXX, k45, k46, XXX, k48, XXX, k4a, XXX, XXX, XXX, k4e}  \
 }
 
+enum layers {
+    _BASE,
+    _FN
+};
+
 void matrix_init_user(void);
 void matrix_scan_user(void);
